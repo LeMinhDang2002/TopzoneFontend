@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: #000;
+  }
+  
+  .slider {
+    margin:10px;
+    height: 100%;
+    overflow:"hidden";
+    padding:2rem 0;
+    background-color: #323232;
+    border-radius: 10px;
+  }
+  
+  .slider img {
+    width: 100%;
+    border-radius:10px;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(255, 68, 68);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgb(255, 68, 68) !important;
+  }
+
+.carousel-continent{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-content{
+    width: 1200px;
+}
+.slider-items{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.slider:hover{
+  box-shadow: 0 0 10px 10px #323232;
+}
+.slider-items img{
+  width: 250px;
+  height: 250px;
+}
